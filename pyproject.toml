@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "agent-productivity-dashboard"
 version = "0.1.0"
-description = "Score agent throughput, reliability, retries, and elapsed time transparently."
+description = "Calculate dashboard metrics from bounded caller-supplied counters."
 readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "Apache-2.0"}
@@ -19,4 +19,3 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
